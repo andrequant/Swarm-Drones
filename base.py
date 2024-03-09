@@ -158,8 +158,6 @@ class IAM:
     raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
 
 
- ### I tried to make some animations. They work, but as I worked in Google Colab
-  ### animations there are problematic. So I didn't finished to properly implement it.
   def animate_solution_2(self, interval=20, save=False):
     fig, ax = plt.subplots()
     ax.set_xlim(-6, 6)
